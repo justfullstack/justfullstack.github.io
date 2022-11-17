@@ -1,0 +1,29 @@
+{
+  "name": "portfolio-v1",
+  "version": "1.0.0",
+  "description": "First iteration of my personal portfolio",
+  "default": "index.html",
+  "scripts": {
+ "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justfullstack/portfolio-v1.git"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1",
+    "sass": "^1.56.0"
+  },
+  "keywords": [
+    "css",
+    "mobile-first",
+    "frontend"
+  ],
+  "author": "Chege, CJN.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/justfullstack/portfolio-v1/issues"
+  },
+  "homepage": "https://github.com/justfullstack/portfolio-v1#readme"
+}
